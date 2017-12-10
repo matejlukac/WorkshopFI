@@ -9,7 +9,7 @@ using UIFramework.Pages.Workflow;
 namespace UITests.Tests
 {
     public class SampleTest : SeleniumTest
-    {        
+    {
         public void A_DriverExample()
         {
             // TODO 2: Create a simple test
@@ -18,7 +18,7 @@ namespace UITests.Tests
             // Go to the url of your choice using IWebDriver.Navigate()
             // Dispose the driver            
         }
-        
+
         [Test]
         public void B_LoginTestExample()
         {
@@ -74,7 +74,7 @@ namespace UITests.Tests
             // Wait for the Content inventory page to load
             // The page is fully loaded when the table with data is displayed
 
-            
+
 
             // TODO 14: Refactor waiting using ExpectedConditions
         }
@@ -90,6 +90,12 @@ namespace UITests.Tests
             // Assert the name of newly created workflow
 
             // TODO 19b: Create a screenshot in test
+        }
+
+        [Test]
+        public void G_FilterItemsInInventory()
+        {
+            // TODO 21: Create a test of content inventory filter
         }
     }
 }

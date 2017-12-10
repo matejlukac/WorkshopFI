@@ -59,6 +59,7 @@
     <Compile Include="Elements\WorkflowEditBarItem.cs" />
     <Compile Include="Elements\WorkflowBarItem.cs" />
     <Compile Include="Pages\BasePage.cs" />
+    <Compile Include="Pages\Content\ContentInventoryPage.cs" />
     <Compile Include="Pages\Login\LoginPageWithAttributes.cs" />
     <Compile Include="Pages\Login\LoginPage.cs" />
     <Compile Include="Pages\Workflow\WorkflowListingPage.cs" />

@@ -13,6 +13,6 @@ namespace UIFramework.Elements
         }
 
         // TODO 16: Implement edit workflow bar action
-        public IWebElement EditAction;
+        public IWebElement EditAction => Element.FindElement(By.XPath(".//div[@class='bar-item__action']"));
     }
 }
